@@ -1,10 +1,5 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 
-function sanitizeFileName(name: string): string {
-  return encodeURIComponent(name)
-    .replace(/%/g, "%25") // 保險處理（通常 encodeURIComponent 已轉）
-    .replace(/\s+/g, "-"); // 空白轉 dash 可讀性更好
-}
 
 // 假設每一個卷軸資料長這樣
 const initialScrolls = [

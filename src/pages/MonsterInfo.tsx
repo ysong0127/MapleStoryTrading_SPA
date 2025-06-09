@@ -1,6 +1,6 @@
 import SearchBar from "../components/SearchBar";  
 import MonsterGrid from "../components/MonsterGrid";
-import React, { useState } from "react";
+import { useState } from "react";
 
 
 export default function Inventory() {
