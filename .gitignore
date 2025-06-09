@@ -1,0 +1,17 @@
+# node modules
+node_modules/
+
+# build output
+build/
+
+# dotenv files (如有)
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
