@@ -1,0 +1,23 @@
+.monster-card {
+  background: #222;
+  color: #eee;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.monster-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+}
+.monster-card h3 {
+  margin-top: 0;
+}
+.monster-card .lvl {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+.monster-card .drops img {
+  width: 32px;
+  margin: 4px;
+}

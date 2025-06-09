@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+h1, h2, h3, p {
+  margin-bottom: 1rem;
+}
+
+button.primary {
+  background-color: #48bb78;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 9999px;
+  cursor: pointer;
+}
